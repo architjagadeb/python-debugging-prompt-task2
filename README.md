@@ -1,42 +1,56 @@
-Python Screening Task 2 – AI Debugging Assistant Prompt
-Task Objective
+# Python Screening Task 2 – AI Debugging Assistant  
 
-This task evaluates the ability to craft a clear, effective prompt that guides an AI assistant to help a student debug Python code without revealing the correct solution.
+## 1. Task Objective  
+This task evaluates the ability to craft a clear, effective prompt that guides an AI assistant to help a student debug Python code **without revealing the correct solution**.  
 
-The AI must:
+The AI must:  
+- Analyze a student’s buggy Python code  
+- Offer helpful hints, suggestions, or debugging strategies  
+- Avoid giving away the fixed code or complete solution  
 
-Analyze a student’s buggy Python code
+---
 
-Offer helpful hints, suggestions, or debugging strategies
+## 2. Design Choices  
 
-Avoid giving away the fixed code or complete solution
+### a) Why worded this way  
+- Used **clear, action-oriented instructions** (*examine, explain, offer hints*) to keep the AI focused on teaching, not fixing.  
+- Chose words like **supportive** and **encouraging** to set a student-friendly tone.  
 
-Design Choices
+### b) Avoiding solutions  
+- Explicitly stated: *“Do not provide corrected code or a complete solution.”*  
+- Encourages **guiding questions and hints** instead of spoon-feeding answers.  
 
-Why worded this way: Clear, action-oriented instructions (e.g., examine, explain, offer hints) keep the AI focused on teaching, not fixing. Words like supportive and encouraging set a student-friendly tone.
+### c) Student-friendly feedback  
+- Added phrases like *gentle hints* and *encouraging* to push the AI toward a **mentor-like role**, offering reassurance while challenging students to think.  
 
-Avoiding solutions: Explicitly stating “Do not provide corrected code or a complete solution” prevents spoon-feeding. Instead, the emphasis is on hints, guiding questions, and strategies.
+---
 
-Student-friendly feedback: Phrases like gentle hints and encouraging push the AI toward a mentor-like style that reassures while still challenging students to think.
+## 3. Reasoning  
 
-Reasoning
+### a) Tone and Style  
+- Should be **supportive, patient, and approachable** — like a friendly tutor.  
+- Use simple, empathetic language to reduce frustration while staying professional.  
 
-Tone and style: The AI should be supportive, patient, and approachable — like a friendly tutor. Use simple, empathetic language to reduce frustration while staying professional.
+### b) Balance: Identifying Bugs vs. Guiding  
+1. **Step 1:** Point out likely problem areas.  
+2. **Step 2:** Explain why those issues matter.  
+3. **Step 3:** Provide hints or questions that nudge students toward the fix.  
 
-Balance between identifying bugs vs. guiding: The AI should first point out likely problem areas and explain why they matter. Then, pivot to hints or questions that nudge the student toward exploring solutions, encouraging independent debugging.
+### c) Adaptation for Learners  
+- **Beginners:**  
+  - Use simple language, break down steps clearly, and avoid jargon.  
+  - Provide direct but non-revealing hints.  
 
-Adaptation for different learners:
+- **Advanced Learners:**  
+  - Highlight deeper **conceptual errors** and edge cases.  
+  - Encourage debugging strategies (e.g., *“What happens if you print this variable?”*).  
 
-Beginner: Use simple language, step-by-step hints, and avoid jargon.
+---
 
-Advanced: Provide deeper conceptual prompts, highlight edge cases, and encourage independent debugging strategies (e.g., “What happens if you print this variable?”).
+## 4. Setup Instructions  
+1. Clone this repository or download the files.  
+2. The main submission is in this `README.md` file.  
+3. Open and review the **Design Choices** and **Reasoning** sections.  
+4. Share the repo link or this file with the evaluation team as per submission instructions.  
 
-Setup Instructions
-
-Clone this repository or download the files.
-
-The main submission is in this README.md file.
-
-Open and review the Design Choices and Reasoning sections.
-
-Share the repo link or this file with the evaluation team as per submission instructions.
+---
